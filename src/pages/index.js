@@ -1,18 +1,17 @@
 import * as React from "react";
-import "/src/components/index.css";
-import Footer from "../components/footer";
-import Hero from "../components/hero";
-import Header from "../components/header";
+import "/src/styles/index.css";
+import Footer from "../themeCore/footer";
+import Header from "../themeCore/header";
 import { StaticImage } from "gatsby-plugin-image";
 
-
 // markup
-const IndexPage = ({data, children}) => {
+const IndexPage = ({ data, children }) => {
   return (
-    <><Header />
-    <Hero />
-    <Footer /></>
-      )
-  }
+    <>
+      <Header />
+      <Footer />
+    </>
+  );
+};
 
-      export default IndexPage;
+export default IndexPage;
