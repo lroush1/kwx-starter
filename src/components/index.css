@@ -1,0 +1,114 @@
+body{
+    margin:0;
+    font-family:  Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
+}
+
+
+.headerSection{
+    position: relative;
+    height:100%;
+    width:100%;
+}
+
+
+
+.kw-container{
+    max-width: 1440px;
+    margin:0 auto;
+}
+
+.imageAbsolute{
+    position:absolute;
+}
+
+
+.circleContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 36px;
+    max-width: 1440px;
+    margin:0 auto;
+    overflow: hidden;
+    padding:0 20px;
+}
+@media all and (max-width: 1400px) {
+    .circleContainer {
+        grid-template-columns: repeat(4, 1fr);
+   }
+}
+@media all and (max-width: 1024px) {
+    .circleContainer {
+        grid-template-columns: repeat(3, 1fr);
+   }
+}
+@media all and (max-width: 768px) {
+    .circleContainer {
+        grid-template-columns: repeat(2, 1fr);
+   }
+}
+@media all and (max-width: 600px) {
+    .circleContainer {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+   }
+}
+.circle {
+    background: #000;
+    border-radius: 50%;
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.circle p, .circle h3 {
+    color: #fff;
+    text-align: center;
+    font-family: Roboto;
+}
+hr {
+    width: 38px;
+    border-color: #d04553;
+}
+.categoryItem {
+    display: grid;
+    grid-template-columns: 26px auto;
+    align-items: center;
+    grid-gap: 12px;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.categoryNumber {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 !important;
+    padding: 0px;
+    border: 1px solid black;
+    border-radius: 50%;
+    min-height: 25px;
+    min-width: 25px;
+    max-height: 26px;
+    max-width: 26px;
+    transition: all 0.1s ease-out;
+    line-height: 0;
+}
+.categoryNumber:hover {
+    background: #ce011f;
+    color: #fff;
+    border-color: #ce011f;
+    transition: all 0.1s ease-out;
+}
+
+
+.section{
+    margin-top:50px !important;
+    margin-bottom:50px !important;
+}
+

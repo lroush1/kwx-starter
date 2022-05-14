@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="45px" viewBox="0 0 45 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 2</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2">
+            <circle id="Oval" fill="#CE1D1F" cx="22.5" cy="22.5" r="22.5"></circle>
+            <polyline id="Path" stroke="#FFFFFF" stroke-width="2" points="20.26213 28.33247 14.59591 22.66622 20.26213 17"></polyline>
+            <path d="M15,23.66374 C14.44771,23.66374 14,23.21602 14,22.66374 C14,22.11145 14.44771,21.66374 15,21.66374 L15,23.66374 Z M30.37344,21.66374 L31.37344,21.66374 L31.37344,23.66374 L30.37344,23.66374 L30.37344,21.66374 Z M15,21.66374 L30.37344,21.66374 L30.37344,23.66374 L15,23.66374 L15,21.66374 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>
